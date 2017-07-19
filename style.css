@@ -52,6 +52,7 @@ header {
   font-size: 1.2em;
   margin-right: .15em;
 }
+
 /* +++++ DIV PAGE_CONTENT  +++++ */
 
 /* ----- 1st SECTION ----- */
@@ -61,7 +62,7 @@ body > div {
 #page_content section {
   margin-left: 1em;
   margin-right: 1em;
-  border-bottom: solid .25em #eee;
+  border-bottom: solid .25em #dddddd;
 
 }
 p > a {
@@ -71,9 +72,33 @@ li {
   font-weight: 600;
 }
 
+/* ----- 2nd SECTION w/TABLE ----- */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 3em;
+}
+table, td {
+  border: 1px solid black;
+}
+thead {
+  background: #1fabe5;
+  color: #fff;
+}
+td {
+  padding: 1em 0 1em 1.5em;
+}
+table img {
+  max-width: 6em;
+  max-height: 6em;
+}
 
+/* ----- 3rd SECTION w/FORM ----- */
 
-
+form {
+  background: #dddddd;
+  border-radius: .25em;
+}
 
 
 
