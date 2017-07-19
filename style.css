@@ -12,7 +12,7 @@ colors:
     blue - #1fabe5
     dark blue - #046c97
 */
-
+/* +++++ BODY +++++ */
 body {
   background-image: url(img/bg.jpg);
   font-family: helvetica, arial, sans-serif;
@@ -20,11 +20,17 @@ body {
 }
 body > div {
   border: .1em solid #ffd24a;
+  border-radius: .15em;
   width: 80%;
   height: 95%;
   margin: 1em auto;
 }
-#site_header {
+h2, h3 {
+  color: #1fabe5;
+}
+
+/* +++++ HEADER +++++ */
+header {
   background: #ff8523;
   width: 100%;
   height: 100%;
@@ -41,11 +47,37 @@ body > div {
   color: #fff;
   border: 1px solid #fff;
   border-radius: .25em;
-  padding: .5em 2.5em;
-  font-weight: 600;
+  padding: .5em 2em;
+  font-weight:600;
   font-size: 1.2em;
   margin-right: .15em;
 }
+/* +++++ DIV PAGE_CONTENT  +++++ */
+
+/* ----- 1st SECTION ----- */
+body > div {
+  background: #fff;
+}
+#page_content section {
+  margin-left: 1em;
+  margin-right: 1em;
+  border-bottom: solid .25em #eee;
+
+}
+p > a {
+  color: #1fabe5;
+}
+li {
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
 
 /* LAYOUT
 header > a {
