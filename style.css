@@ -12,3 +12,7 @@ colors:
     blue - #1fabe5
     dark blue - #046c97
 */
+
+html, body {
+  background-image: url(/7.19_puppy_love/bg.jpg);
+}
