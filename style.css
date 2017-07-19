@@ -17,12 +17,14 @@ body {
   background-image: url(img/bg.jpg);
   font-family: helvetica, arial, sans-serif;
   line-height: 1.6;
+  padding-bottom: 1em;
 }
 body > div {
   border: .1em solid #ffd24a;
   border-radius: .15em;
   width: 80%;
   height: 95%;
+  padding-bottom: 1em;
   margin: 1em auto;
 }
 h2, h3 {
@@ -86,7 +88,7 @@ thead {
   color: #fff;
 }
 td {
-  padding: 1em 0 1em 1.5em;
+  padding: 1em 1em 1em 1em;
 }
 table img {
   max-width: 6em;
@@ -96,19 +98,57 @@ table img {
 /* ----- 3rd SECTION w/FORM ----- */
 
 form {
-  background: #dddddd;
+  background: #eee;
   border-radius: .25em;
+  padding: .5em;
+  margin-bottom: 3em;
 }
-
-
-
-
-
-/* LAYOUT
-header > a {
-  margin-top: 5em;
-  border: 1px solid #fff;
+form > div {
+  display: block;
+  width: 98%;
+  margin: 1em auto;
 }
-header > nav {
-  border: 1px solid blue;
+.name {
+  background: #ff8523;
+  border-radius: .25em;
+  padding: 1.5em 0;
+}
+.name label {
+  color: #fff;
+  margin-left: 2em;
+  font-weight: 600;
+}
+.name input {
+  height: 3.5em;
+  width: 23em;
+}
+.city_container {
+  padding: 1em 0;
+  font-weight: 600;
+}
+.city_container select {
+  border-color: #dddddd;
+  height:2.5em;
+  width: 15em;
+}
+form div:nth-child(3) label {
+  font-weight: 600;
+  padding-top: 0;
+}
+form div:nth-child(3) textarea {
+  width: 98%;
+  height: 10em;
+  border-color: #1fabe5;
+  font-size: 1.3em;
+  margin-top: 1em;
+}
+.submit_container input {
+  color: #fff;
+  background: #1fabe5;
+  border-color: #1fabe5;
+  border-radius: .25em;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 1em 1.5em;
+  text-transform: uppercase;
 }
